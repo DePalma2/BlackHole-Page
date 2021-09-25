@@ -1,0 +1,1 @@
+const menu=document.querySelector(".menu"),openMenu=document.querySelector(".open-menu"),closeMenu=document.querySelector(".close-menu");function toggleMenu(){menu.classList.toggle("menu-opened")}openMenu.addEventListener("click",toggleMenu),closeMenu.addEventListener("click",toggleMenu);
